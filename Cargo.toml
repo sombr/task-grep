@@ -3,6 +3,32 @@ name = "task-grep"
 version = "0.1.0"
 authors = ["sombr <serge.toropov@gmail.com>"]
 
+# A short blurb about the package. This is not rendered in any format when
+# uploaded to crates.io (aka this is not markdown).
+description = "Very simplistic grep-like regexp searcher that leveages lock-free Tasks framework for its workers."
+
+# These URLs point to more information about the repository. These are
+# intended to be webviews of the relevant data, not necessarily compatible
+# with VCS tools and the like.
+homepage = "https://github.com/sombr/task-grep"
+repository = "https://github.com/sombr/task-grep"
+
+# This is a list of up to five keywords that describe this crate. Keywords
+# are searchable on crates.io, and you may choose any words that would
+# help someone find this crate.
+keywords = ["lock-free", "coroutines", "grep"]
+
+# This is a list of up to five categories where this crate would fit.
+# Categories are a fixed list available at crates.io/category_slugs, and
+# they must match exactly.
+categories = ["command-line-utilities"]
+
+# This is a string description of the license for this package. Currently
+# crates.io will validate the license provided against a whitelist of known
+# license identifiers from http://spdx.org/licenses/. Multiple licenses can be
+# separated with a `/`.
+license = "MIT"
+
 [dependencies]
 lock-free-stack = "0.1"
 nix = "0.7"
