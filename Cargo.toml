@@ -1,0 +1,12 @@
+[package]
+name = "task-grep"
+version = "0.1.0"
+authors = ["sombr <serge.toropov@gmail.com>"]
+
+[dependencies]
+lock-free-stack = "0.1"
+nix = "0.7"
+num_cpus = "1.2"
+regex = "0.2"
+tasks-framework = "0.1"
+threadpool = "1.3"
